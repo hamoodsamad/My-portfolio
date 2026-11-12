@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
+    />
+    <title>Admin Studio — Hamood Samad Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind CDN + External Config -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/tailwind-config.js"></script>
+
+    <!-- External Admin Stylesheet -->
+    <link rel="stylesheet" href="/src/styles/style.css" />
+    <link rel="stylesheet" href="/src/styles/admin.css" />
+  </head>
+  <body
+    class="admin-body bg-pitchBlack text-softSilver antialiased relative min-h-screen selection:bg-accentCyan selection:text-pitchBlack overflow-x-hidden font-body w-full"
+  >
+    <div id="admin-root"></div>
+    <script type="module" src="/src/admin.jsx"></script>
+  </body>
+</html>
